@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { dbConnection } from "./database/dbConnection.js";
 import { errorMiddleware } from "./error/error.js";
-import reservationRouter from "./routes/reservationRoute.js";
+import reservationRouter from "./routes/reservationroute.js";
 
 const app = express();
 dotenv.config({path: "./config/config.env"});
